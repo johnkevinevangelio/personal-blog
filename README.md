@@ -1,2 +1,2 @@
 # personal-blog
-Hi Blog! Welcome to my guys. This is all about my journey as an aspiring DEVOPS Engineer
+Hi Blog! Welcome to my guys. Come and join me on my journey as an aspiring DEVOPS Engineer
