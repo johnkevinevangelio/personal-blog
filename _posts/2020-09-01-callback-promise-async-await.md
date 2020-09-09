@@ -23,6 +23,8 @@ JavaScript is a **single threaded**, event driven language. What that means is u
 
 1. **Call Stack** : It’s a data structure which records the function calls, basically where in the program we are. If we call a function to execute , we push something on to the stack, and when we return from a function, we pop off the top of the stack.
 
+For Chrome browser, there is a limit on the size of the stack which is 16,000 frames , more than that it will just kill things for you and throw Max Stack Error Reached.
+
 2. **Heap** : Objects are allocated in a heap i.e mostly unstructured region of memory. All the memory allocation to variables and objects happens here.
 
 3. **Queue** : A JavaScript runtime contains a message queue, which is a list of messages to be processed and the associated callback functions to execute.
