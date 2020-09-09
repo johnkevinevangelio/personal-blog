@@ -70,6 +70,8 @@ With Callback:
 
 Just like a PROMISE in real life, what you do is that promise on something by saying for example, I promise to make you happy. That promise has two results, either  that promise is resolved or that promise is failed or rejected.
 
+Definition: A promise is an object that may produce a single value some time in the future : either a resolved value, or a reason that it's not resolved (e.g., a network error occurred)
+
 #### Actual Syntax of Promise
 
     let p = new Promise((resolve, reject) => {
