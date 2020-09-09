@@ -31,6 +31,9 @@ For Chrome browser, there is a limit on the size of the stack which is 16,000 fr
 
 4. **Event loop** : basic job is to look both at the stack and the task queue, pushing the first thing on the queue to the stack when it see stack as empty.
 
+**What is Callback in Javascript?**
+A JavaScript Callback Function is a function that is passed as a parameter to another JavaScript function, and the callback function is run inside of the function it was passed into.
+
 **Why we use callback?**
 
 Sample Code:
